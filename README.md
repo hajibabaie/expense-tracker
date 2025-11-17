@@ -2,17 +2,21 @@
 
 A modern, responsive web application for tracking personal expenses built with Next.js 14, TypeScript, and Tailwind CSS.
 
-## Features
+## 🚀 Live Demo
 
-- Add, edit, and delete expenses
-- Categorize expenses (Food, Transportation, Entertainment, Shopping, Bills, Other)
-- Filter and search expenses
-- Visual analytics with charts
-- Export data to CSV
-- Responsive design for mobile and desktop
-- Data persistence using localStorage
+**[View Live Demo](https://celadon-peony-77965b.netlify.app/)**
 
-## Tech Stack
+## ✨ Features
+
+- **Add, Edit & Delete** expenses with ease
+- **Categorize** expenses (Food, Transportation, Entertainment, Shopping, Bills, Other)
+- **Filter & Search** through your expense history
+- **Visual Analytics** with interactive charts
+- **Export to CSV** for further analysis
+- **Responsive Design** - works perfectly on mobile and desktop
+- **Data Persistence** - all data stored locally in your browser
+
+## 🛠️ Tech Stack
 
 - Next.js 14 (App Router)
 - TypeScript
@@ -20,27 +24,42 @@ A modern, responsive web application for tracking personal expenses built with N
 - Recharts
 - date-fns
 
-## Getting Started
+## 📦 Installation
 
-Install dependencies:
 ```bash
+# Clone the repository
+git clone https://github.com/hajibabaie/expense-tracker.git
+
+# Navigate to project directory
+cd expense-tracker
+
+# Install dependencies
 npm install
-```
 
-Run the development server:
-```bash
+# Run development server
 npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Build
+## 🏗️ Build
 
 ```bash
 npm run build
-npm start
 ```
 
-## License
+## 📱 Usage
+
+1. **Add Expense** - Fill in the date, amount, category, and description
+2. **View Dashboard** - See your spending summary and analytics
+3. **Filter & Search** - Find specific expenses easily
+4. **Edit/Delete** - Manage your expense records
+5. **Export** - Download your data as CSV
+
+## 📄 License
 
 MIT
+
+---
+
+Made with ❤️ using Next.js, TypeScript, and Tailwind CSS
